@@ -1,0 +1,17 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/cow_luncher"
+        android:shortcutId="compose">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.dev.alpha.leruo.HomeActivity"
+            android:targetPackage="com.dev.alpha.leruo"/>
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="Leruo App" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

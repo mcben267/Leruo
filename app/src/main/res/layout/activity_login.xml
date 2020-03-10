@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fitsSystemWindows="true"
+    tools:context="com.dev.alpha.leruo.LoginActivity">
+
+    <ImageView
+        android:id="@+id/appLogoImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cow_logo"/>
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailEditText"
+        android:layout_below="@+id/appLogoImage"
+        android:layout_marginEnd="24dp"
+        android:text="@string/Leruo"
+        android:textSize="60sp"
+        />
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/text_background"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/email"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/emailEditText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/text_background"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="@string/register"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/registerTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/button_background"
+        android:text="@string/signIn"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/dev_name" />
+
+</RelativeLayout>

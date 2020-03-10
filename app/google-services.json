@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "292591250605",
+    "firebase_url": "https://leruoapp.firebaseio.com",
+    "project_id": "leruoapp",
+    "storage_bucket": "leruoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292591250605:android:bd387134bfa09f50",
+        "android_client_info": {
+          "package_name": "com.dev.alpha.leruo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292591250605-17fhjqlq6kmgocc169vr5c4djrvrv5jk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.alpha.leruo",
+            "certificate_hash": "9ff5e729c38ac0287ff93fc431f8902fcf2d2eec"
+          }
+        },
+        {
+          "client_id": "292591250605-khiuaf3vkg2k07dhp1gatpmn970jhmo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa8aOoDR39Ret0DE_5-hpZzw6K4xewzic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292591250605-khiuaf3vkg2k07dhp1gatpmn970jhmo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
